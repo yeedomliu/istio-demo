@@ -9,4 +9,5 @@ switch ($_SERVER['PATH_INFO']) {
     default:
         echo '<pre>';
         print_r($_SERVER);
+        print_r($_ENV);
 }
