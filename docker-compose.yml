@@ -1,0 +1,10 @@
+version: '3'
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: phpserver
+    image: "yeedom/istio-demo"
+    ports:
+      - "80:80"
